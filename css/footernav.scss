@@ -1,0 +1,29 @@
+.navbar-toggler{
+  border-color: transparent!important;
+  color: transparent!important;
+}
+.navbar-collapse{
+  justify-content: center;
+  align-items: center;
+}
+.nav-link{
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px){
+  .nav-link{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .nav-link{
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+}
