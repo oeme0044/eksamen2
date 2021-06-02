@@ -5,7 +5,7 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
-  margin-top: 30px;
+
 }
 .cta{
   text-align: center;
@@ -20,10 +20,13 @@
 @media (min-width: 768px) {
   .wrapper {
     max-width: 720px;
-    margin-top: 110px;
+    margin-top: 50px;
   }
   h3.global-title{
     margin-bottom: 30px;
+  }
+  .d-grid {
+    margin-top: -10px;
   }
 }
 
@@ -107,6 +110,13 @@ h3.global-title {
   h3.global-title {
     margin-top: -60px;
   }
+  .cont-details p,
+  .cont-details p a {
+    font-size: 15px!important;
+  }
+  .map-content{
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -132,7 +142,6 @@ h3.global-title {
     font-size: 30px;
     line-height: 35px;
     margin-bottom: 30px;
-    margin-top: 40px;
   }
 }
 
@@ -170,8 +179,7 @@ h4.sub-title {
 }
 
 .cont-details h6 {
-  font-size: 20px;
-  color: #051b35;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -179,7 +187,7 @@ h4.sub-title {
 .cont-details p a {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   color: #777777;
   margin-top: 3px;
@@ -252,18 +260,10 @@ button.btn-contact {
   border-radius: 0.25rem;
 }
 
-.cont-details h6 a {
-  color: #051b35;
-}
+
 
 
 @media(max-width: 992px) {
-
-  .cont-details p,
-  .cont-details p a {
-    font-size: 16px;
-  }
-
   .cont-details h5 {
     font-size: 32px;
     line-height: 35px;
@@ -273,9 +273,7 @@ button.btn-contact {
     grid-template-columns: 1fr;
   }
 
-  .map-content {
-    margin-top: 40px;
-  }
+
 }
 
 @media(max-width: 480px) {
