@@ -117,7 +117,24 @@ h3.global-title {
   .map-content{
     margin-top: 10px;
   }
+
 }
+@media screen and (min-width:1024px){
+.wrapper{
+  margin-top: 80px!important;
+}
+
+  .cont-details h6 {
+    font-size: 19px!important;
+  }
+
+  .cont-details p,
+  .cont-details p a {
+    font-size: 16px!important;
+  }
+
+}
+
 
 @media screen and (max-width:767px) {
   h3.global-title {
@@ -179,7 +196,7 @@ h4.sub-title {
 }
 
 .cont-details h6 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
 }
 
