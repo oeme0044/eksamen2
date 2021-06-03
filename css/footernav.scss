@@ -1,3 +1,4 @@
+
 .navbar-toggler{
   border-color: transparent!important;
   color: transparent!important;
@@ -14,6 +15,11 @@
   text-align: center;
   font-weight: 600;
 }
+.nav-link:hover{
+  color: black!important;
+  opacity: 50%;
+
+}
 .navText{
   text-transform: uppercase;
   font-size: 15px;
@@ -22,7 +28,11 @@
   font-weight: 600;
   color: black;
 }
+.navText:hover{
+  color: black!important;
+  opacity: 50%;
 
+}
 
 @media screen and (min-width: 768px){
 
@@ -82,6 +92,10 @@
   text-decoration: none;
   color: #1a1e21;
 }
+.footer-a:hover {
+  color: black;
+  opacity: 50%;
+}
 
 .icon-background {
   color: #1a1e21;
@@ -96,9 +110,7 @@
   margin-bottom: 30px;
 }
 
-a:hover{
-  opacity: 50%;
-}
+
 
 .copy-bottom {
   margin-top: 30px;
