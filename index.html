@@ -28,7 +28,7 @@
 				</a>
 				<ul class="navbar-nav me-auto">
 					<li id="navbarText">
-						<a class="navText" href="#">kaffetår'n</a>
+						<a class="navText" href="#sektion1">kaffetår'n</a>
 					</li>
 				</ul>
 
@@ -40,35 +40,38 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav position-middle">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">menukort</a>
+					<a class="nav-link active"  aria-current="page" href="#menukort">menukort</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">om mig</a>
+					<a class="nav-link active" aria-current="page" href="#sektion2">om mig</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">åbningstider</a>
+					<a class="nav-link active" aria-current="page" href="#sektion3">nyhedsbrev</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">kontakt</a>
+					<a class="nav-link active" aria-current="page" href="#sektion4">åbningstider</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#sektion5">kontakt</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 </nav>
 
-<div class="px-5 py-5 text-left heroimage">
+<div class="px-5 py-5 text-left heroimage" id="#sektion1">
 	<div class="container">
 		<h1 class="imgover display-5 fw-bold herotext">Velkommen til café Kaffetårn</h1>
 		<div class="col-lg-6">
 			<p class="imgtekst">Her hos café Kaffetårn kan du både få en kop Økologisk Kaffe, eller en klassisk Club Sandwich, lavet på Lokale råvarer.</p>
 			<div class="d-grid gap-3 d-sm-flex">
-				<button type="button" class="ctaknap btn btn-outline-primary btn-lg px-4 gap-3 herotext"><p class="menukort-btn">MENUKORT <i class="fas fa-coffee coffee-icon-btn"></i></p></button>
+				<a href="#menukort"><button type="button" class="ctaknap btn btn-outline-primary btn-lg px-4 gap-3 herotext"><p class="menukort-btn">MENUKORT <i class="fas fa-coffee coffee-icon-btn"></i></p></button></a>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="conmenu container px-5 py-5">
+<div class="conmenu container px-5 py-5" id="menukort">
 	<h1 class="mkortover display-5 ">MENUKORT</h1>
 	<div class="line2">
 		<hr class="hr1">
@@ -170,7 +173,7 @@
 	</div>
 </div>
 
-<div class="omtårn">
+<div class="omtårn" id="sektion2">
 	<div class="container">
 		<div class="row featurette">
 			<div class="col-sm-12 col-md-6 col-lg-6">
@@ -203,7 +206,7 @@
 </div>
 
 
-<div class="nyheder">
+<div class="nyheder" id="sektion3">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-6 col-lg-6">
@@ -217,7 +220,7 @@
 				<p class="nyhedtekst">Du kan løbende følge med i nyheder fra cafe Kaffetår'n ved at tilmelde dig vores nyhedsbrev. Du kan til enhver tid afmelde dig vores nyhedsbrev.</p>
 
 				<div class="nyhedsbrev__email__wrapper">
-					<input id="email" class="email" name="email" type="email" placeholder="eksempel@gmail.com" value="">
+					<input  aria-label="#" id="email" class="email" name="email" type="email" placeholder="eksempel@gmail.com" value="">
 					<button class="nyhedcta btn">Tilmeld</button>
 				</div>
 			</div>
@@ -226,7 +229,7 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="container" id="sektion4">
 	<div class="åbningstider row">
 		<div class="col-lg-1">
 
@@ -253,7 +256,7 @@
 </div>
 
 
-<div class="wrapper">
+<div class="wrapper" id="sektion5">
 	<h3 class="global-title text-center">Kontakt</h3>
 	<div class="d-grid contact-view">
 		<div class="cont-details">
@@ -336,14 +339,17 @@
 			<a class="footer-a" href="#">Kaffetår'n</a>
 			<a class="footer-a" href="#">Menukort</a>
 			<a class="footer-a" href="#">Om mig</a>
+			<a class="footer-a menupunkt3" href="#">nyheder</a>
 			<a class="footer-a menupunkt3" href="#">åbningstider</a>
 			<a class="footer-a menupunkt3" href="#">kontakt</a>
 		</div>
 	</div>
 
 	<div class="menupunkt2">
+		<a class="footer-a" href="#">nyheder</a>
 		<a class="footer-a" href="#">åbningstider</a>
 		<a class="footer-a" href="#">kontakt</a>
+
 	</div>
 
 
